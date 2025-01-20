@@ -1,0 +1,39 @@
+<resources>
+    <!-- Nom de l'application -->
+    <string name="app_name">Gestion Des Cours</string>
+
+    <!-- Titres et espaces -->
+    <string name="espace_etudiant">Espace Étudiant</string>
+    <string name="hello_blank_fragment">Bonjour, fragment vide !</string>
+
+    <!-- Mois de l'année -->
+    <string-array name="mois">
+        <item>Janvier</item>
+        <item>Février</item>
+        <item>Mars</item>
+        <item>Avril</item>
+        <item>Mai</item>
+        <item>Juin</item>
+        <item>Juillet</item>
+        <item>Août</item>
+        <item>Septembre</item>
+        <item>Octobre</item>
+        <item>Novembre</item>
+        <item>Décembre</item>
+    </string-array>
+
+    <!-- Activités -->
+    <string name="title_activity_home1">Accueil</string>
+
+    <!-- Formulaire de connexion -->
+    <string name="prompt_email">Adresse e-mail</string>
+    <string name="prompt_password">Mot de passe</string>
+    <string name="action_sign_in">Se connecter ou s\'inscrire</string>
+    <string name="action_sign_in_short">Connexion</string>
+
+    <!-- Messages et erreurs -->
+    <string name="welcome">Bienvenue!</string>
+    <string name="invalid_username">Nom d\'utilisateur invalide</string>
+    <string name="invalid_password">Le mot de passe doit contenir plus de 5 caractères</string>
+    <string name="login_failed">Échec de la connexion</string>
+</resources>

@@ -1,0 +1,20 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.GestionDesCours" parent="Theme.Material3.Light.NoActionBar">
+        <!-- Customize your light theme here.Theme.AppCompat.Light.NoActionBar     -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+
+        <item name="colorPrimary">@color/FPBMColor</item>
+        <item name="colorPrimaryVariant">@color/FPBMColor</item>
+        <item name="colorOnPrimary">@color/cardsVectors</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/FPBMColor</item>
+        <item name="colorSecondaryVariant">@color/FPBMColor</item>
+        <item name="colorOnSecondary">@color/cardsVectors</item>
+
+        <!-- Secondary brand color. -->
+        <item name="android:statusBarColor">@color/cardsVectors</item>
+    </style>
+
+    <style name="Theme.GestionDescours" parent="Base.Theme.GestionDesCours" />
+</resources>

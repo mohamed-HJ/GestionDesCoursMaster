@@ -1,0 +1,36 @@
+            <!-- res/layout/activity_news.xml -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+
+    <!-- EditText pour entrer du texte -->
+    <EditText
+        android:id="@+id/editTextNews"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Entrez votre actualité ici"/>
+
+    <Button
+        android:visibility="gone"
+        android:id="@+id/addButton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:backgroundTint="#295ED1"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:text="Add"/>
+
+    <ListView
+        android:id="@+id/listViewNews"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/addButton"
+        android:layout_marginTop="10dp"/>
+    <!-- Bouton pour ajouter l'actualité -->
+
+
+</RelativeLayout>

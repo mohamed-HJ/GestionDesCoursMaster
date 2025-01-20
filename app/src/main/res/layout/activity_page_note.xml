@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".pageNoteActivity">
+<TextView
+    android:id="@+id/title_text_view"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Title"
+    android:textSize="36dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginStart="10dp"
+    android:textColor="@color/black"
+    android:textStyle="bold" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:layout_below="@id/title_text_view">
+        <TextView
+            android:id="@+id/note_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="note"
+            android:layout_marginStart="10dp"
+            android:textSize="18sp"/>
+
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "930136949271",
+    "firebase_url": "https://master-36453-default-rtdb.firebaseio.com",
+    "project_id": "master-36453",
+    "storage_bucket": "master-36453.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:930136949271:android:c51c58886b554f11cb1252",
+        "android_client_info": {
+          "package_name": "com.example.GestionDesCours"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAuaOHQ8JMdko1GGNFLCCiEmuW4PkuCfsk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:930136949271:android:3abe7b56bb603701cb1252",
+        "android_client_info": {
+          "package_name": "com.example.GestionDesCours"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAuaOHQ8JMdko1GGNFLCCiEmuW4PkuCfsk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
